@@ -9,8 +9,8 @@ if variable:
   fig, ax = plt.subplots()
   ax.plot(time_series)
   ax.set_title("Random 100 time series")
-  ax.set_xlabel("Units")
-  ax.set_ylabel("Time")
+  ax.set_xlabel("Time")
+  ax.set_ylabel("Value")
   st.pyplot(fig)
 
 
