@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 st.title("Test run")
 st.heading("EDAB6808")
-st.subheading("This is a fun and interavtive module")           
+  st.subheading("This is a fun and interavtive module")           
 variable=st.button("Click me")
 if variable:
 # Generate random time series data
